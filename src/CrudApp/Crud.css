@@ -1,0 +1,217 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+*{
+  margin: 0;
+  padding: 0;
+  font-family: "Open Sans", serif;
+
+  
+}
+.container{
+  width: 80%; 
+  margin: 0px auto; 
+  background-color: white; 
+  border-radius: 8px; 
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  border-top: 5px solid rgb(82, 2, 82);
+  height: auto;
+  border-bottom:5px solid rgb(82, 2, 82) ;
+}
+h1{
+    padding-bottom: 15px;
+    color: rgb(82, 2, 82);
+    text-align: center;
+    font-size: 40px;
+}
+
+
+th,tr,td{
+  border-collapse: collapse;
+  padding: 5px 15px;
+}
+tr>th{
+  text-align: center;
+  background-color: rgb(82, 2, 82);
+  color: white;
+}
+#editBtn{
+  padding:4px 14px;
+  background-color: rgb(46, 2, 46);
+  color: white;
+  margin-left: 20px;
+  border: none;
+  font-weight: 500;
+ 
+}
+#deleteBtn{
+  padding:4px 14px;
+  background-color: #dc3545;
+  color: white;
+  margin-left: 20px;
+  border: none;
+  font-weight: 500;
+}
+
+/* Popup Background */
+.popup {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5); 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 1000; 
+  }
+  /* Popup Content */
+  .popup-content {
+    background-color: #fff;
+    border-radius: 8px;
+    width: 400px;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    /* text-align: center; */
+    position: relative; /* For positioning the close button */
+  }
+  
+  /* Popup Heading */
+  .popup-content h2 {
+    margin: 0 0 20px;
+    font-size: 2.5em;
+    color:rgb(82, 2, 82);
+     text-align: center;
+    
+
+  }
+  /* Popup Input Fields */
+  .popup-content input {
+    width: 90%;
+    margin: 10px 0;
+    padding: 10px;
+    font-size: 1em;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+  }
+  label{
+    color: #c82333;
+    font-weight: bold;
+  }
+  /* Buttons */
+  .popup-content button {
+    padding: 10px 20px;
+    margin: 10px 5px;
+    font-size: 1em;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    
+  }
+  
+  .popup-content button:first-of-type {
+    background-color: #28a745; 
+    color: white;
+    
+  }
+  
+  .popup-content button:last-of-type {
+    background-color: #dc3545;
+    color: white;
+  }
+  
+  /* Close Button */
+  .popup-content button:hover {
+    opacity: 0.9;
+  }
+  /* Navbar Style */
+.navbar {
+  color: white;
+  border-radius: 5px;
+  width: 90%; 
+  margin: 10px auto; 
+}
+
+.navbar h1 {
+  margin: 0;
+}
+
+.add-btn {
+  padding: 8px 16px;
+  background-color: rgb(82, 2, 82);
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 1em;
+}
+
+.add-btn:hover {
+  background-color: rgb(82, 2, 82);
+}
+
+/* Table Styles */
+table {
+  width: 90%; 
+  margin: 20px auto; 
+  border-collapse: collapse;
+  background-color: #f8f9fa; 
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+  border: none;
+  
+}
+
+th, td {
+  padding: 10px 15px;
+  text-align: center; 
+  /* border: 1px solid #ccc;  */
+  height: 50px;
+  border: none;
+  
+}
+
+th {
+  background-color: rgb(82, 2, 82); 
+  color: white; 
+  font-weight: bold; 
+}
+
+tr:nth-child(even) {
+  background-color: rgb(240, 186, 240); 
+}
+
+tr:nth-child(odd) {
+  background-color: #f8f9fa; 
+}
+
+tr:hover {
+  background-color: rgb(216, 110, 216); 
+  color: white; 
+}
+
+/* Buttons */
+#editBtn, #deleteBtn {
+  padding: 6px 14px;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+#editBtn {
+  background-color: rgb(82, 2, 82); 
+}
+
+#deleteBtn {
+  background-color: #dc3545; 
+}
+
+/* Hover effect for buttons */
+#editBtn:hover {
+  background-color: rgb(82, 2, 82);
+}
+
+#deleteBtn:hover {
+  background-color: #c82333;
+}
